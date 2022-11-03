@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myaddressbook
+spec:
+  name: myabcontainer
+  image: addressbook:$BUILD_NUMBER
