@@ -3,5 +3,6 @@ kind: Pod
 metadata:
   name: myaddressbook
 spec:
-  name: myabcontainer
-  image: addressbook:$BUILD_NUMBER
+  containers:
+  - name: myabcontainer
+    image: addressbook:latest
