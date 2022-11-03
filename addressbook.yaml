@@ -5,4 +5,4 @@ metadata:
 spec:
   containers:
   - name: myabcontainer
-    image: addressbook:latest
+    image: jsachdev07/addressbook:latest
